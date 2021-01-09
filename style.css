@@ -8,12 +8,16 @@ html, body {
 
   }
   a {
-      color: #000;
-      text-decoration:none;
+    color: #000;
+    text-decoration:none;
   }
   a:hover {
-    font-decoration: underline;
-    color:tomato;
+    text-decoration: underline;
+  }
+  a.button {
+    text-decoration: none;
+    background-color:rgb(245, 239, 239);
+    padding: 10px;
   }
   a:active {
   }
@@ -34,10 +38,8 @@ html, body {
   }
   .flex-item {
     padding: 5px;
-    width: 400px;
-    height: 32px;
     margin: 10px;
     line-height: 20px;
     color: 000;
-      text-align: center;
+    text-align: center;
   }
